@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clublinho</title>
+    <title>Lançamento relogio holograma</title>
     <link rel="stylesheet" href="src/css/produto.css">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <h1>Novo produto inovador!! </h1>
+        <h1>Cronos </h1>
         <nav>
             <ul>
                 <li><a href="index.html">Voltar</a></li>
@@ -29,7 +30,7 @@
         <section id="hero">
             <article>
             <h2>Sobre o nosso produto</h2>
-            <img src="src/img/video.jpg">
+            <img src="src/img/video.jpg" alt="Imagem da sua funcionabilidade">
             <p>Apresentamos o Cronos, o dispositivo que transcende o conceito de smartwatch para se tornar a sua interface pessoal com o mundo. Não é apenas tecnologia vestível; é o epicentro da Omni-Conexão.</p>
             </article>
         </section>
@@ -37,45 +38,61 @@
         <section id="Especificacoes">
             <article>
                 <h2>Especificações Técnicas</h2>
-
                 <img src="src/img/globo.jpg">
 
+                <table>
+                    <thead>
+                    <tr>
+                        <th>Características</th>
+                        <th>Detalhe</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Processador</td>
+                        <td>HyperCore 4</td>
+                    </tr>
+                    <tr>
+                        <td>Armazenamento</td>
+                        <td>256 GB</td>
+                    </tr>
+                    </tbody>
+                </table>
             </article>
         </section>
         <hr>
         <section id="Galeria">
-            <h2>Aqui está nosso local de agendamentos</h2>
-            <aside>
-                <h3>Atalhos</h3>
-                <ul>
-                    <li><a href="#boasvindas">Boas vindas ao club</a></li>
-
-                    <li><a href="#livro-mes">Livro do mes</a></li>
-
-                    <li><a href="#agenda">Agenda</a></li>
-                </ul>
-            </aside>
+            <h2>Aqui está nosso local de fotos do produto</h2>
+            <img src="src/img/globo.jpg" alt="Ilustração 1 do Cronos">
+             <img src="src/img/tabela.jpg" alt="Ilustração 2 do Cronos">
+             <img src="src/img/video.jpg" alt="Ilustração 3 do Cronos">
         </section>
 
 
-        <section id="Comprar">
-            <article>
-                <h3>Livros que iremos ler para esse mês</h3>
+        <section id="comprar">
+            <h2>Garanta o Seu!</h2>
 
-                <img src="C:\Users\2anoA\Documents\Senai Ghyppolito\DESKTOP\GitHub\SENAI\avaliacao-html-gustavo-hyppolito\avaliacao-html-clube-leitura-gustavo-hyppolito\img\aneis.jfif"
-                    alt="O Senhor dos Aneis">
-                <p>Em uma terra fantástica e única, um hobbit recebe de presente de seu tio um anel mágico e maligno que
-                    precisa ser destruído antes que caia nas mãos do mal. Para isso, o hobbit Frodo tem um caminho árduo
-                    pela frente, onde encontra perigo, medo e seres bizarros. Ao seu lado para o cumprimento desta
-                    jornada, ele aos poucos pode contar com outros hobbits, um elfo, um anão, dois humanos e um mago,
-                    totalizando nove seres que formam a Sociedade do Anel.</p>
+            <form>
+                <label for="email_contato">Seu E-mail</label>
+                <input type="email" id="email_contato" required>
 
-            </article>
+                <button type="submit" class="botao-comprar">Comprar Agora</button>
+            </form>
         </section>
     </main>
-    <hr>
+
+    
+    <aside>
+        <h3>Recursos Adicionais</h3>
+        <ul>
+            <li><a href="#">Manuais de Usuário</a></li>
+            <li><a href="#">Suporte Técnico</a></li>
+            <li><a href="#">Garantia</a></li>
+        </ul>
+    </aside>
+
     <footer>
-        <p>&copy,2025 Clube de Leitura do SENAI. Hyppolito/ Puclicado em: 25/11/2025 </p>
+        <p>© 2025 Cronos Corp. Todos os direitos reservados.</p>
     </footer>
 </body>
 
